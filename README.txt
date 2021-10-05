@@ -1,6 +1,7 @@
 FOOD WAYS
 
-Food Ways es un servicio de pedidos de comida en línea de diferentes restaurantes en un solo pedido. Nuestro sitio web ofrece la posibilidad de seleccionar comida de diferentes restaurantes para generar un único pedido de comida.
+Food Ways es un servicio de pedidos de comida en línea de diferentes restaurantes en un solo pedido. 
+Nuestro sitio web ofrece la posibilidad de seleccionar comida de diferentes restaurantes para generar un único pedido de comida.
 Food Ways permite al usuario ver los menús de los restaurantes cercanos a su ubicación, filtrar por tipo restaurante 
 y cantidad de comensales. 
 
@@ -16,7 +17,8 @@ Ahora conoce un poco más a los Fundadores de Food WAYS:
 
 German:
 
-Cristian:
+Cristian Sanjuan: Tengo 22 años, soy estudiante de Ingeniería química en X semestre, apasionado por la ciencia e investigación,
+me encanta escuchar música, viajar y conocer personas interesantes.  
 
 Alicia: ¡Hola! Soy Alicia Ojeda, tengo 23 años y soy de Bogotá. Soy Ingenieria Industrial y joven investigadora de MinCiencias. 
 Me gustan las series animadas de DC y Marvel, también leer y documentales históricos.
@@ -28,6 +30,7 @@ Algunos de nuestros referentes son:
 2. Didi food: Por los productos y servicios que ofrecen
 3. Pedidosya: Funcionalidades que ofrecen.
 4. Uber eats: Por la estética que representan.
+5. Amazon compras: Por la estética que representan. 
 
 
 Próximamente más detalles...
