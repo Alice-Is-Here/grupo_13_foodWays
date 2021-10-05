@@ -1,5 +1,7 @@
 FOOD WAYS
 
+The Better Way To Find food
+
 Food Ways es un servicio de pedidos de comida en línea de diferentes restaurantes en un solo pedido. 
 Nuestro sitio web ofrece la posibilidad de seleccionar comida de diferentes restaurantes para generar un único pedido de comida.
 Food Ways permite al usuario ver los menús de los restaurantes cercanos a su ubicación, filtrar por tipo restaurante 
@@ -15,7 +17,8 @@ restaurantes locales de la ciudad.
 
 Ahora conoce un poco más a los Fundadores de Food WAYS:
 
-German:
+German Arciniegas: Tengo 19 años, soy tecnico en programación de software, me encanta mucho las matematicas, la fisica y sobretodo
+la programacion, soy amante de las zonas verdes y actividades al aire libre. 
 
 Cristian Sanjuan: Tengo 22 años, soy estudiante de Ingeniería química en X semestre, apasionado por la ciencia e investigación,
 me encanta escuchar música, viajar y conocer personas interesantes.  
