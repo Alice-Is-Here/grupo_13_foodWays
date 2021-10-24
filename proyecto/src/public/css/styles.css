@@ -1,0 +1,1245 @@
+/********************Home web********************/
+
+.menu_navegacion {
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.one, .two, .three, .four, .five {
+    border: 3px solid black;
+    padding: 1.5%;
+    margin-left: 5%;
+}
+
+.caja1 {
+    border: 3px solid black;
+    padding: 5%;
+    margin-top: 3%;
+}
+
+.logo_empresa {
+    border: 3px solid black;
+    padding: 3%;
+    position: absolute;
+    top: 19.5%;
+    left: 3%;
+    width: 2%;
+    height: 2%;
+}
+
+.caja_opciones {
+    border: 3px solid black;
+    padding: 3%;
+    position: absolute;
+    top: 20%;
+    left: 13%; 
+    width: 60%;
+}
+
+.restaurante_desplegable {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    left: 14%;
+    top: 22.5%;
+}
+
+.busqueda {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    left: 24%;
+    top: 22.9%;
+    width: 49%;
+}
+
+.lupa_busqueda {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    left: 74%;
+    top: 23%;
+    width: 1%;
+    height: 2%;
+}
+
+.logo_usuario {
+    border: 3px solid black;
+    padding: 2%;
+    position: absolute;
+    left: 82%;
+    top: 21%;
+    width: 1.5%;
+    height: 3%;
+}
+
+.logo_carrito_compras {
+    border: 3px solid black;
+    padding: 2%;
+    position: absolute;
+    left: 90%;
+    top: 21%;
+    width: 1.5%;
+    height: 3%;
+}
+
+.user_car {
+    position: absolute;
+    left: 82.5%;
+    top: 34%;
+}
+
+.car {
+    position: absolute;
+    left: 160%;
+}
+
+.cuadros_menu {
+    margin-left: auto;
+    margin-top: 2%;
+} 
+
+.six, .seven, .eight, .nine, .ten {
+    border: 3px solid black;
+    padding: 1%;
+    margin-left: 6%;
+}
+
+.opciones_secundarias {
+    border: 3px solid black;
+    padding: 2.5%;
+    position: absolute;
+    width: 70%;
+    top: 45%;
+    display: none;
+}
+
+.hamburguesa {
+    border: 3px solid black;
+    position: absolute;
+    top: 47.5%;
+    left: 1%;
+    width: 2.8%;
+    height: 6%;
+}
+
+.anuncio {
+    border: 3px solid black;
+    margin-top: 6%;
+    width: 20%;
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    height: 60%;
+}
+
+.imagen_corporativa, .frase_corporativa {
+    border: 3px solid black;
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    margin-top: 4%;
+}
+
+.imagen_corporativa {
+    margin-left: 3%;
+}
+
+.anuncio_pedido {
+    border: 3px solid black;
+    margin-top: 30%;
+    position: absolute;
+    height: 50%;
+    width: 98%;
+}
+
+.frase_corporativa {
+    margin-left: 40%;
+}
+
+.carrusel {
+    border: 3px solid black;
+    margin-top: 56%;
+    position: absolute;
+    height: 50%;
+    width: 98%;
+}
+
+.car1, .car2, .car3 {
+    border: 3px solid black;
+    padding: 10%;
+    margin-left: 9.5%;
+}
+
+.cuadros_car {
+    margin-top: 11%;
+}
+.anuncio_restaurante {
+    border: 3px solid black;
+    position: absolute;
+    width: 98%;
+    height: 50%;
+    margin-top: 82%;
+}
+
+.explora {
+    border: 3px solid black;
+    position: absolute;
+    width: 93%;
+    height: 50%;
+    margin-top: 107%;
+    margin-left: 2.6%;
+}
+
+.boton_inicio {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    top: 337%;
+    left: 48%;
+}
+
+.cuadro_prefooter {
+    border: 3px solid black;
+    position: absolute;
+    width: 98%;
+    height: 42%;
+    top: 348%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.semiseccion1 {
+    position: absolute;
+    top: 350%;
+    left: 3%;
+}
+
+.semiseccion2 {
+    position: absolute;
+    top: 350%;
+    left: 28%;
+}
+
+.semiseccion3 {
+    position: absolute;
+    top: 350%;
+    left: 53%;
+}
+
+.semiseccion4 {
+    position: absolute;
+    top: 350%;
+    left: 78%;
+}
+
+.footer {
+    position: absolute;
+    top: 395%;
+}
+
+.elementos_footer {
+    position: relative;
+    left: 80%;
+    padding: 5%;
+    width: 100%;
+}
+
+/********************Home Movil*******************524 x 656*/
+
+.hamburguesa_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    margin-top: 3%;
+    left: 3%;
+}
+
+.logo_empresa_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 15%;
+    height: 8%;
+    left: 20%;
+    margin-top: 3%;
+}
+
+.inicio_sesion_movil {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    left: 39%;
+    margin-top: 5%;
+}
+
+.logo_inicio_sesion_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 4%;
+    left: 60%;
+    height: 12%;
+    margin-top: 1%;
+    width: 15%;
+}
+
+.logo_carrito_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 15%;
+    left: 80%;
+    margin-top: 3%;
+    height: 9%;
+}
+
+.hamburguesa2_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    top: 20%;
+}
+
+.opciones_secundarias_movil {
+    border: 3px solid black;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    width: 90%;
+    height: 7%;
+}
+
+.inicio_movil, .promociones_movil, .cupones_descuento_movil, .chatbox_movil, .servicio_cliente_movil {
+    border: 3px solid black;
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 4%;
+    padding: 1%;
+}
+
+.osm {
+    margin-top: 3%;
+}
+
+.img_frase {
+    border: 3px solid black;
+    position: absolute;
+    top: 28%;
+    width: 80%;
+    height: 35%;
+    left: 10%;
+}
+
+.anuncio_pedido_movil, .anuncio_restaurante_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 67%;
+    left: 2%;
+}
+
+.anuncio_pedido_movil {
+    width: 50%;
+}
+
+.anuncio_restaurante_movil {
+    left: 55%;
+}
+
+.explora_movil {
+    border: 3px solid black;
+    position: absolute;
+    top: 101%;
+    width: 80%;
+    height: 35%;
+    left: 10%;
+}
+
+.boton_inicio_movil {
+    border: 3px solid black;
+    padding: 2%;
+    position: absolute;
+    top: 140%;
+    left: 40%;
+}
+
+.prefooter_movil {
+    border: 3px solid black;
+    width: 90%;
+    height: 55%;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+}
+
+.elem_pref_movil2 {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+}
+
+.footer_movil {
+    position: absolute;
+    top: 210%;
+}
+
+.elementos_footer_movil {
+    position: relative;
+    left: 50%;
+}
+
+/********************Home Tablet*******************768 x 656*/
+.menu_navegacion_tablet {
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.one_tablet, .two_tablet, .three_tablet, .four_tablet, .five_tablet {
+    border: 3px solid black;
+    padding: 1%;
+}
+
+.caja_opciones_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 80%;
+    height: 7%;
+    top: 10%;
+}
+
+.restaurante_desplegable_tablet {
+    border: 3px solid black;
+    position: absolute;
+    padding: 1%;
+    top: 8%;
+    left: 2%;
+}
+
+.busqueda_tablet {
+    border: 3px solid black;
+    position: absolute;
+    padding: 1%;
+    top: 11%;
+    left: 23%;
+    width: 60%;
+}
+
+.lupa_busqueda_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 5%;
+    height: 6%;
+    left: 72%;
+    top: 10.5%;
+}
+
+.logo_inicio_sesion_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 12%;
+    height: 15%;
+    left: 84%;
+    top: 9%;
+}
+
+.usuario_tablet {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    left: 84.5%;
+    top: 26%;
+}
+
+.opciones_secundarias_tablet {
+    border: 3px solid black;
+    padding: 2%;
+    position: absolute;
+    top: 20%;
+    width: 75%;
+}
+
+.hamburguesa_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 5%;
+    height: 70%;
+    left: 1%;
+    top: 11%;
+}
+
+.inicio_tablet, .promociones_tablet, .cupones_descuento_tablet, .chatbox_tablet, .servicio_cliente_tablet {
+    border: 3px solid black;
+    padding: 1%;
+}
+
+.ost {
+    margin-left: 8%;
+}
+
+.img_frase_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    top: 35%;
+    left: 4%;
+}
+
+.anuncio_pedido_tablet, .anuncio_restaurante_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 45%;
+    height: 38%;
+    top: 90%;
+    left: 2%;
+}
+
+.anuncio_restaurante_tablet {
+    left: 52%;
+}
+
+.explora_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    top: 134%;
+    left: 4%;
+}
+
+.prefooter_tablet {
+    border: 3px solid black;
+    position: absolute;
+    top: 198%;
+    width: 94%;
+    left: 3%;
+}
+
+.boton_inicio_tablet {
+    border: 3px solid black;
+    padding: 2%;
+    position: absolute;
+    top: 186%;
+    left: 42%;
+}
+
+.elem_pref_tablet1 {
+    margin-left: 10%;
+}
+
+.elem_pref_tablet2 {
+    position: absolute;
+    left: 60%;
+    bottom: 6%;
+}
+
+.footer_tablet {
+    position: absolute;
+    top: 260%;
+    left: 35%;
+}
+
+/********************Deseas Comprar Algo Web*******************/
+.anuncio_dca {
+    border: 3px solid black;
+    margin-top: 6%;
+    width: 20%;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    height: 40%;
+}
+
+.cuadro_opciones_sugerencias {
+    border: 3px solid black;
+    width: 75%;
+    position: absolute;
+    top: 60%;
+    height: 9%;
+}
+
+.mostrando_n_sugerencias, .ordenar_por {
+    position: absolute;
+    margin-top: 1.7%;
+    margin-left: 3%;
+}
+
+.ordenar_por {
+    margin-left: 73%;
+}
+
+.desplegable_opciones {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    margin-top: 0.4%;
+    left: 83%;
+}
+
+.filtros {
+    border: 3px solid black;
+    position: absolute;
+    width: 13%;
+    margin-top: 10%;
+    height: 35%;
+    margin-left: 3%;
+}
+
+.opciones_filtro {
+    position: absolute;
+    text-align: center;
+    right: 17%;
+}
+
+.precios {
+    border: 3px solid black;
+    position: absolute;
+    top: 115%;
+    text-align: center;
+    width: 20%;
+    height: 49%;
+}
+
+.opciones_precios {
+    position: absolute;
+    right: 18%;
+    bottom: 14%;
+    top: 20%;
+}
+
+.sandwich, .hamburguesa_alimento, .vegetales, .algo_rapido, .dulce {
+    position: absolute;
+    border: 3px solid black;
+    width: 25%;
+    height: 50%;
+    left: 22%;
+    top: 75%;
+}
+
+.imagen_sandwich, .imagen_hamburguesa, .imagen_vegetales, .imagen_algo_rapido, .imagen_dulce {
+    position: absolute;
+    border: 3px solid black;
+    width: 40%;
+    height: 40%;
+    left: 30%;
+    top: 20%;
+}
+
+.pregunta_sandwich {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.haz_click_aqui {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    left: 34%;
+    top: 70%;
+}
+
+.pregunta_hamburguesa {
+    position: absolute;
+    left: 13%;
+    top: 10%;
+}
+
+.hamburguesa_alimento {
+    position: absolute;
+    left: 48%;
+}
+
+.pregunta_vegetales {
+    position: absolute;
+    left: 22%;
+    top: 10%;
+}
+
+.vegetales {
+    position: absolute;
+    top: 130%;
+}
+
+.pregunta_algo_rapido {
+    position: absolute;
+    left: 28%;
+    top: 10%;
+}
+
+.algo_rapido {
+    position: absolute;
+    top: 130%;
+    left: 48%;
+}
+
+.pregunta_dulce {
+    position: absolute;
+    left: 23%;
+    top: 10%;
+}
+
+.dulce {
+    position: absolute;
+    top: 130%;
+    left: 74%;
+}
+
+.lo_mas_pedido {
+    position: absolute;
+    border: 3px solid black;
+    padding: 1%;
+    top: 180%;
+    left: 22%;
+}
+
+.mas_pedido1, .mas_pedido2, .mas_pedido3, .mas_pedido4, .mas_pedido5,.mas_pedido6 {
+    position: absolute;
+    border: 3px solid black;
+    width: 25%;
+    height: 50%;
+    top: 200%;
+    left: 22%;
+}
+
+.imagen_mas_pedido1, .imagen_mas_pedido2, .imagen_mas_pedido3, .imagen_mas_pedido4, .imagen_mas_pedido5,.imagen_mas_pedido6 {
+    position: absolute;
+    border: 3px solid black;
+    width: 40%;
+    height: 40%;
+    left: 30%;
+    top: 20%;
+}
+
+.saber_mas {
+    border: 3px solid black;
+    padding: 1%;
+    position: absolute;
+    left: 38%;
+    top: 70%;
+}
+
+.mas_pedido2 {
+    position: absolute;
+    left: 48%;
+}
+
+.mas_pedido3 {
+    position: absolute;
+    left: 74%;
+}
+
+.mas_pedido4 {
+    position: absolute;
+    left: 22%;
+    top: 255%;
+}
+
+.mas_pedido5 {
+    position: absolute;
+    left: 48%;
+    top: 255%;
+}
+
+.mas_pedido6 {
+    position: absolute;
+    left: 74%;
+    top: 255%;
+}
+
+.busquedas_relacionadas {
+    position: absolute;
+    border: 3px solid black;
+    padding: 1%;
+    top: 305%;
+    left: 22%;
+}
+
+.busqueda_rel1, .busqueda_rel2, .busqueda_rel3, .busqueda_rel4, .busqueda_rel5, .busqueda_rel6 {
+    border: 3px solid black;
+    padding: 1%;
+    margin-left: 15%;
+}
+
+.busquedas_rel1, .busquedas_rel2 {
+    margin-top: 5%;
+}
+
+.busq_rel {
+    margin-top: 115%;
+    margin-left: 7.9%;
+}
+
+.pie_pagina {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -20%;
+}
+
+/********************Deseas Comprar Algo Movil*******************524x656*/
+.filtros_dca_movil {
+    border: 3px solid black;
+    position: absolute;
+    top: 28%;
+    padding: 3%;
+    width: 90%;
+    height: 5%;
+}
+
+.filtros_dca_movil_desplegable {
+    border: 3px solid black;
+    position: absolute;
+    padding: 2%;
+    left: 80%;
+    bottom: 15%;
+}
+
+.sandwich_movil, .hamburguesa_alimento_movil, .vegetales_movil, .algo_rapido_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 40%;
+    left: 8%;
+}
+
+.imagen_sandwich_movil, .imagen_hamburguesa_alimento_movil, .imagen_vegetales_movil, .imagen_algo_rapido_movil {
+    border: 3px solid black;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 19%;
+    top: 22%;
+}
+
+.pregunta_sandwich_movil {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+}
+
+.hamburguesa_alimento_movil {
+    left: 52%;
+}
+
+.pregunta_hamburguesa_alimento_movil {
+    position: absolute;
+    left: 10%;
+}
+
+.vegetales_movil {
+    top: 73%;
+}
+
+.pregunta_vegetales_movil {
+    position: absolute;
+    left: 8%;
+    top: 5%;
+}
+
+.algo_rapido_movil {
+    top: 73%;
+    left: 52%;
+}
+
+.pregunta_algo_rapido_movil {
+    position: absolute;
+    left: 17%;
+    top: 5%;
+}
+
+.lo_mas_pedido_movil {
+    position: absolute;
+    top: 108%;
+    border: 3px solid black;
+    padding: 2%;
+}
+
+.lmpm1, .lmpm2, .lmpm3, .lmpm4 {
+    border: 3px solid black;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 119%;
+    left: 8%;
+}
+
+.img_lmpm1, .img_lmpm2, .img_lmpm3, .img_lmpm4 {
+    border: 3px solid black;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 19%;
+    top: 18%;
+}
+
+.lmpm2 {
+    left: 52%;
+}
+
+.lmpm3 {
+    top: 153%;
+}
+
+.lmpm4 {
+    left: 52%;
+    top: 153%;
+}
+
+.pie_de_pagina_movil {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 48%;
+}
+
+/********************Deseas Comprar Algo Movil*******************768x656*/
+
+.caja_opciones_tablet_rest {
+    border: 3px solid black;
+    position: absolute;
+    width: 60%;
+    height: 7%;
+    top: 12%;
+}
+
+.busqueda_tablet_rest {
+    border: 3px solid black;
+    position: absolute;
+    padding: 1%;
+    top: 11%;
+    left: 27%;
+    width: 60%;
+}
+
+.logo_inicio_sesion_tablet_rest {
+    border: 3px solid black;
+    position: absolute;
+    width: 18%;
+    height: 155%;
+    left: 110%;
+    margin-top: -3%;
+}
+
+.inicio_sesion_tablet_rest {
+    position: absolute;
+    border: 3px solid black;
+    padding: 2%;
+    left: 108%;
+    width: 18%;
+    margin-top: 14%;
+}
+
+.six_rest, .seven_rest, .eight_rest, .nine_rest, .ten_rest {
+    border: 3px solid black;
+    padding: 1%;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.opciones_secundarias_tablet_rest {
+    margin-top: 23%;
+    height: 20%;
+    width: 100%;
+}
+
+.sandwich_tablet, .hamburguesa_alimento_tablet, .vegetales_tablet, .algo_rapido_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 40%;
+    left: 8%;
+}
+
+.imagen_sandwich_tablet, .imagen_hamburguesa_alimento_tablet, .imagen_vegetales_tablet, .imagen_algo_rapido_tablet {
+    border: 3px solid black;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 19%;
+    top: 22%;
+}
+
+.pregunta_sandwich_tablet {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+}
+
+.hamburguesa_alimento_tablet{
+    left: 52%;
+}
+
+.pregunta_hamburguesa_alimento_tablet{
+    position: absolute;
+    left: 10%;
+}
+
+.vegetales_tablet{
+    top: 73%;
+}
+
+.pregunta_vegetales_tablet {
+    position: absolute;
+    left: 8%;
+    top: 5%;
+}
+
+.algo_rapido_tablet{
+    top: 73%;
+    left: 52%;
+}
+
+.pregunta_algo_rapido_tablet {
+    position: absolute;
+    left: 17%;
+    top: 5%;
+}
+
+.lo_mas_pedido_tablet {
+    position: absolute;
+    top: 108%;
+    border: 3px solid black;
+    padding: 2%;
+}
+
+.lmpt1, .lmpt2, .lmpt3, .lmpt4 {
+    border: 3px solid black;
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    top: 119%;
+    left: 8%;
+}
+
+.img_lmpt1, .img_lmpt2, .img_lmpt3, .img_lmpt4 {
+    border: 3px solid black;
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 19%;
+    top: 18%;
+}
+
+.lmpt2 {
+    left: 52%;
+}
+
+.lmpt3 {
+    top: 153%;
+}
+
+.lmpt4 {
+    left: 52%;
+    top: 153%;
+}
+
+/********************Carrito Web********************/
+
+.six_carrito_web, .seven_carrito_web, .eight_carrito_web, .nine_carrito_web, .ten_carrito_web {
+    border: 3px solid black;
+    padding: 1%;
+    margin-left: 9%;
+}
+
+.cuadro_subtotal {
+    border: 3px solid black;
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    margin-top: 3%;
+    left: 75%;
+}
+
+.subtotal, .precio_sub, .finalizar_pedido {
+    border: 3px solid black;
+    position: absolute;
+    left: 5%;
+    margin-top: 7%;
+    padding: 2%;
+}
+
+.precio_sub {
+    margin-top: 20%;
+}
+
+.finalizar_pedido {
+    left: 30%;
+    margin-top: 70%;
+}
+
+.titulo_alimentos_relacionados {
+    position: absolute;
+    left: 75%;
+    margin-top: 25%;
+}
+
+.cuadro_alimentos_relacionados {
+    border: 3px solid black;
+    position: absolute;
+    width: 22%;
+    height: 90%;
+    margin-top: 27%;
+    left: 75%;
+}
+
+.imagen_producto, .nombre_producto, .detalle_producto {
+    left: 5%;
+    margin-top: 5%;
+}
+
+.imagen_producto {
+    border: 3px solid black;
+    position: absolute;
+    width: 45%;
+    height: 30%;
+}
+
+.nombre_producto, .detalle_producto {
+    border: 3px solid black;
+    padding: 2%;
+    position: absolute;
+    left: 54%;
+}
+
+.detalle_producto {
+    margin-top: 25%;
+}
+
+.prod2 {
+    margin-top: 50%;
+}
+
+.prod3 {
+    margin-top: 100%;
+}
+
+.precio_alimento {
+    border: 3px solid black;
+    position: absolute;
+    padding: 1%;
+    margin-top: 3%;
+    left: 65%;
+}
+
+.img_prod {
+    border: 3px solid black;
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    margin-top: 10%;
+}
+
+.atributos_alimento {
+    position: absolute;
+    left: 20%;
+    margin-top: 12%;
+}
+
+.cantidad, .quitar, .agregar_lista_deseos {
+    position: absolute;
+    margin-top: 25%;
+    border: 3px solid black;
+    padding: 1%;
+    margin-left: 19%;
+}
+
+.quitar {
+    margin-left: 35%;
+}
+
+.agregar_lista_deseos {
+    margin-left: 45%;
+}
+
+.alimento_agregado2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 25%;
+}
+
+.alimento_agregado3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 50%;
+}
+
+.precio_sub_unit {
+    position: absolute;
+    border: 3px solid black;
+    padding: 1%;
+    left: 65%;
+    margin-top: 15%;
+}
+
+.subtotal_final, .precio_subtotal {
+    position: absolute;
+    border: 3px solid black;
+    padding: 1%;
+    margin-left: 5%;
+    margin-top: 80%;
+}
+
+.subtotal_precio {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 44%;
+}
+
+.precio_subtotal {
+    left: 15%;
+}
+
+.sugerencias_compras_anteriores {
+    position: absolute;
+    border: 3px solid black;
+    padding: 1%;
+    margin-top: 87%;
+}
+
+.imagen_alimento_sugerencia {
+    position: absolute;
+    border: 3px solid black;
+    width: 15%;
+    height: 30%;
+    margin-top: 95%;
+}
+
+.alimento_sugerencia {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
