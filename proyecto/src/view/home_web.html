@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="../public/css/styles.css" />
     <title>Inicio de Página</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
+
 <body>
+    <!--Menu Principal-->
     <div class="menu_navegacion">
         <div>
                 <a href="#" class="one">Iniciar Sesión</a>
@@ -19,13 +23,21 @@
     </div>
     <!--Menu donde se encuentra Restaurante Desplegable-->
     <div class="caja1"></div>
-    <div class="logo_empresa"></div>
+    <div class="logo_empresa">
+        <img src="../public/img/img_foodways.png" class="imagen1">
+    </div>
     <div class="caja_opciones"></div>
     <div class="restaurante_desplegable"><a href="#">Restaurantes V</a></div>
     <input type="search" name="busqueda" class="busqueda" />
-    <div class="lupa_busqueda"></div>
-    <div class="logo_usuario"></div>
-    <div class="logo_carrito_compras"></div>
+    <div class="lupa_busqueda">
+        <i class="fas fa-search"></i>
+    </div>
+    <div class="logo_usuario">
+    <img src="../public/img/user-regular.svg" class="logo_user" alt="">
+    </div>
+    <div class="logo_carrito_compras">
+        <img src="../public/img/shopping-cart-solid.svg" alt="" class="logo_car">
+    </div>
     <div class="user_car">
         <a href="#" class="user">USUARIO</a>
         <a href="#" class="car">CARRITO</a>
@@ -42,68 +54,87 @@
         </div>
     </div>
     <!--Apartado Tercero-->
-    <div class="anuncio"></div>
-    <div class="imagen_corporativa"></div>
-    <div class="frase_corporativa"></div>
+    <div class="anuncio">
+        <img src="../public/img/anuncio.png" class="img_anuncio" alt="">
+    </div>
+    <div class="imagen_corporativa">
+        <img src="../public/img/icono_foodways.png" class="icono_foodways" alt="">
+    </div>
+    <div class="frase_corporativa">
+        <img src="../public/img/eslogan_foodways.png" class="eslogan_foodways" alt="">
+    </div>
     <!--Anuncio Que Llama La Atencion-->
-    <div class="anuncio_pedido"></div>
+    <div class="anuncio_pedido">
+        <a href="../view/login_web.html"><img src="../public/img/deseaspedido.png" class="des_ped" alt=""></a>
+    </div>
     <!--Carrusel-->
-    <div class="carrusel">
+    <!-- <div class="carrusel">
         <div class="cuadros_car">
             <a href="#" class="car1"></a>
             <a href="#" class="car2"></a>
             <a href="#" class="car3"></a>
         </div>
-    </div>
+    </div> -->
     <!--Anuncio de Restaurante-->
-    <div class="anuncio_restaurante"></div>
-    <div class="explora"></div>
-    <!--Boton de Inicio-->
-    <a href="#" class="boton_inicio">¡Ir Hacia el Inicio!</a>
+    <div class="anuncio_restaurante">
+        <a href="#"><img src="../public/img/anun_rest.png" class="anun_rest" alt=""></a>
+    </div>
+    <div class="explora">
+        <img src="../public/img/explo_gust.jpg" class="explo_gust" alt="">
+    </div>
     <!--PreFooter-->
-    <div class="cuadro_prefooter"></div>
-    <div class="semiseccion1">
-        <h1 class="tit_pref1">Acerca De</h1>
-        <ul>
-            <em><strong><li><a href="#">FoodWays Web</a></li>
-            <li><a href="#">Registro y Login</a></li>
-            <li><a href="#">Medios de Pago</a></li>
-            <li><a href="#">Todos los restaurantes</a></li>
-            <li><a href="#">Acerca de la Compañia</a></li>
-            <li><a href="#">Mision y Vision</a></li>
-            <li><a href="#">¡Empleate con un Retarante!</a></li></em></strong>
-        </ul>
-    </div>
-    <div class="semiseccion2">
-        <h1 class="tit_pref2">Más Servicios</h1>
-        <ul>
-            <em><strong><li><a href="#">Tu Cuenta</a></li>
-            <li><a href="#">Tus Pedidos</a></li>
-            <li><a href="#">Tarifas de Envio y Politicas</a></li>
-            <li><a href="#">Devoluciones y Reemplazos</a></li></em></strong>
-        </ul>
-    </div>
-    <div class="semiseccion3">
-        <h1 class="tit_pref3">Consultas y Ayuda</h1>
-        <ul>
-            <em><strong><li><a href="#">Consultas</a></li>
-            <li><a href="#">Ayuda</a></li></em></strong>
-        </ul>
-    </div>
-    <div class="semiseccion4">
-        <h1 class="iti_pref4">FoodWays Movil</h1>
-        <ul>
-            <em><strong><li><a href="#">Android</a></li>
-            <li><a href="#">iOS</a></li></em></strong>
-        </ul>
-    </div>
-    <!--Footer-->
-    <div class="footer">
-        <footer class="elementos_footer">
-            <a href="#" class="elem_foot1">Condiciones de Uso</a>
-            <a href="#" class="elem_foot2">Avisos de Privacidad</a>
-            <a class="elem_foot3">2021-2021 &copy FoodWays.com y Asociados</a>
-        </footer>
+        <div class="pie_pagina_home">
+            <!--Boton de Inicio-->
+            <a href="#" class="boton_inicio">¡Ir Hacia el Inicio!</a>
+        <div class="cuadro_prefooter"></div>
+        <div class="semiseccion1">
+            <h1 class="tit_pref1">Acerca De</h1>
+            <ul>
+                <em><strong>
+                        <li><a href="#">FoodWays Web</a></li>
+                        <li><a href="#">Registro y Login</a></li>
+                        <li><a href="#">Medios de Pago</a></li>
+                        <li><a href="#">Todos los restaurantes</a></li>
+                        <li><a href="#">Acerca de la Compañia</a></li>
+                        <li><a href="#">Mision y Vision</a></li>
+                        <li><a href="#">¡Empleate con un Restaurante!</a></li></em></strong>
+            </ul>
+        </div>
+        <div class="semiseccion2">
+            <h1 class="tit_pref2">Más Servicios</h1>
+            <ul>
+                <em><strong>
+                        <li><a href="#">Tu Cuenta</a></li>
+                        <li><a href="#">Tus Pedidos</a></li>
+                        <li><a href="#">Tarifas de Envio y Politicas</a></li>
+                        <li><a href="#">Devoluciones y Reemplazos</a></li></em></strong>
+            </ul>
+        </div>
+        <div class="semiseccion3">
+            <h1 class="tit_pref3">Consultas y Ayuda</h1>
+            <ul>
+                <em><strong>
+                        <li><a href="#">Consultas</a></li>
+                        <li><a href="#">Ayuda</a></li></em></strong>
+            </ul>
+        </div>
+        <div class="semiseccion4">
+            <h1 class="iti_pref4">FoodWays Movil</h1>
+            <ul>
+                <em><strong>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">iOS</a></li></em></strong>
+            </ul>
+        </div>
+        <!--Footer-->
+        <div class="footer">
+            <footer class="elementos_footer">
+                <a href="#" class="elem_foot1">Condiciones de Uso</a>
+                <a href="#" class="elem_foot2">Avisos de Privacidad</a>
+                <a class="elem_foot3">2021-2021 &copy FoodWays.com y Asociados</a>
+            </footer>
+        </div>
     </div>
 </body>
+
 </html>

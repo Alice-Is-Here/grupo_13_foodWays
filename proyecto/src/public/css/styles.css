@@ -92,7 +92,7 @@ a {
 .user_car {
     position: absolute;
     left: 82.5%;
-    top: 34%;
+    top: 37%;
 }
 
 .car {
@@ -156,20 +156,21 @@ a {
     margin-top: 30%;
     position: absolute;
     height: 50%;
-    width: 98%;
+    width: 60%;
+    left: 20%;
 }
 
 .frase_corporativa {
     margin-left: 40%;
 }
 
-.carrusel {
+/* .carrusel {
     border: 3px solid black;
     margin-top: 56%;
     position: absolute;
-    height: 50%;
+    height: 54%;
     width: 98%;
-}
+} */
 
 .car1, .car2, .car3 {
     border: 3px solid black;
@@ -183,9 +184,10 @@ a {
 .anuncio_restaurante {
     border: 3px solid black;
     position: absolute;
-    width: 98%;
+    width: 75%;
     height: 50%;
-    margin-top: 82%;
+    margin-top: 55%;
+    left: 12%;
 }
 
 .explora {
@@ -193,7 +195,7 @@ a {
     position: absolute;
     width: 93%;
     height: 50%;
-    margin-top: 107%;
+    margin-top: 80%;
     margin-left: 2.6%;
 }
 
@@ -1056,7 +1058,7 @@ ul {
     border: 3px solid black;
     position: absolute;
     width: 20%;
-    height: 50%;
+    height: 46%;
     margin-top: 3%;
     left: 75%;
 }
@@ -1088,7 +1090,7 @@ ul {
     border: 3px solid black;
     position: absolute;
     width: 22%;
-    height: 90%;
+    height: 83%;
     margin-top: 27%;
     left: 75%;
 }
@@ -1215,22 +1217,339 @@ ul {
     border: 3px solid black;
     width: 15%;
     height: 30%;
-    margin-top: 95%;
+    margin-top: -15%;
+    margin-left: -4%;
 }
 
 .alimento_sugerencia {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 200%;
+    top: 290%;
+    left: 10%;
 }
 
+.alimento_sugerencia2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 290%;
+    left: 28%;
+}
 
+.alimento_sugerencia3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 290%;
+    left: 46%;
+}
 
+.alimento_sugerencia4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 290%;
+    left: 64%;
+}
 
+.alimento_sugerencia5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 290%;
+    left: 82%;
+}
 
+.table {
+    border: 3px solid black;
+}
 
+.pie_pagina_car_web {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 20%;
+}
 
+/*Ingreso Web*/
+
+.form_ingreso {
+    border: 3px solid black;
+    position: absolute;
+    left: 22%;
+    top: 17%;
+    width: 50%;
+    height: 60%;
+}
+
+form {
+    margin-left: 27%;
+    margin-top: 7%;
+}
+
+#enviar {
+    position: relative;
+    left: 25%;
+}
+
+.ingreso_facebook, .ingreso_google {
+    border: 3px solid black;
+    position: relative;
+    padding: 2%;
+    width: 30%;
+    display: inline-block;
+}
+
+.option_center{
+    text-align: center;
+}
+
+.opciones_registro_contraseña {
+    position: absolute;
+    margin-left: -5%;
+}
+
+/*Ingreso Movil*/
+
+#home_iniciado_movil {
+    position: absolute;
+    margin-left: 18%;
+}
+
+#user, #password {
+    border: 3px solid black;
+}
+
+/*Ingreso Tablet*/
+
+/*Registro Web*/
+
+#nombre, #apellido, #celular, #correo, #tip_doc, #documento, #direccion, #barrio, #localidad{
+    border: 3px solid black;
+    width: 3%;
+    position: absolute;
+    left: 40%;
+}
+
+h5, .titulo_registro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 18%;
+}
+
+#enviar {
+    position: absolute;
+    left: 48%;
+    margin-top: 2%;
+}
+
+#register_account {
+    border: 3px solid black;
+    width: 50%;
+    height: 90%;
+}
+
+.opciones_registro_nuevo {
+    position: absolute;
+    left: 50%;
+}
+
+/*Carrito movil*/
+
+.ubicacion {
+    position: absolute;
+    border: 3px solid black;
+    padding: 3%;
+    height: 6%;
+    width: 91%;
+    top: 30%;
+}
+
+.envio {
+    position: absolute;
+    left: 70%;
+    border: 3px solid black;
+    padding: 2%;
+}
+
+/*Carrito Movil*/
+
+.subtotal_car_mov, .subtotal_precio_mov, .finalizar_pedido_mov {
+    border: 3px solid black;
+    padding: 2%;
+}
+
+.opciones_parte1 {
+    position: absolute;
+    top: 47%;
+    width: 100%;
+}
+
+.finalizar_pedido_mov {
+    margin-left: 20%;
+}
+
+#check_agregar, .msg_check {
+    position: absolute;
+    top: 53%;
+}
+
+.msg_check {
+    left: 7%;
+}
+
+.img_prod_mov {
+    border: 3px solid black;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 60%;
+}
+
+.atributos_alimento_mov {
+    position: absolute;
+    top: 62%;
+    left: 30%;
+}
+
+.menos, .uno, .mas, .quitar_mov, .agregar_lista_deseos_mov {
+    border: 3px solid black;
+    padding: 2%;
+    width: 3%;
+}
+
+.opciones_control_mov {
+    position: absolute;
+    margin-top: 105%;
+    width: 100%;
+}
+
+.alimento_agregado_mov2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 40%;
+}
+
+.sugerencias_compras_anteriores_mov {
+    position: absolute;
+    border: 3px solid black;
+    padding: 1%;
+    margin-top: 155%;
+}
+
+.imagen_alimento_sugerencia_mov {
+    border: 3px solid black;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: -20%;
+    left: -3%;
+}
+
+.alimento_sugerencia_mov {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 155%;
+    left: 5%;
+}
+
+.alimento_sugerencia_mov2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 155%;
+    left: 35%;
+}
+
+/*estilos css detallado*/
+
+.imagen1 {
+    position: absolute;
+    bottom: 3%;
+    width: 100px;
+    height: 80px;
+    right: 3%;
+}
+
+.logo_user, .logo_car {
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    width: 50px;
+    height: 50px;
+}
+
+.collage_comida {
+    width: 270px;
+    height: 220px;
+}
+
+.img_sandwich_sub, .img_hamb, .img_ensalada, .img_a_r, .dulce_img, .lmp1, .lmp2, .lmp3, .lmp4, .lmp5, .lmp6 {
+    width: 135px;
+    height: 110px;
+}
+
+.icono_foodways, .eslogan_foodways {
+    width: 405px;
+    height: 285px;
+}
+
+.img_anuncio {
+    margin-top: 18%;
+    width: 270px;
+    height: 220px;
+}
+
+/*Home Movil CSS*/
+
+.imagen1_movil {
+    width: 78px;
+    height: 50px;
+}
+
+.logo_user_movil, .logo_car_movil {
+    position: absolute;
+    right: 19%;
+    bottom: 15%;
+    width: 50px;
+    height: 50px;
+}
+
+.logo_car_movil {
+    top: 11%;
+}
+
+.img_fr_corp {
+    width: 420px;
+    height: 230px;
+}
+
+.des_ped {
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+
+.pie_pagina_home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -35%;
+}
+
+.anun_rest {
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    margin-top: 2%;
+    margin-left: 17%;
+}
 
 
 
