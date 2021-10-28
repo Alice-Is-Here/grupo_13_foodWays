@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap");
+* {
+  font-family: "Zen Antique Soft", serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 100px;
+  top: 0;
+  right: 0;
+  font-size: 14px;
+  z-index: 100;
+  position: fixed;
+  background: grey;
+}
+
+.bloqueHeader {
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0px 20px;
+  border: solid 1px rgb(0, 0, 0);
+}
+
+header .logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 97px;
+}
+.imagenPrincipal {
+  width: 100px;
+}
+
+.navHeader {
+  /* width: 100vh;*/
+  position: relative;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  margin: 0px 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: antiquewhite;
+  font: size 14px;
+}
+
+.detalleBoton {
+  background: goldenrod;
+  padding: 10px 30px;
+  color: black;
+  border-radius: 20px;
+}
+
+/*seccion 1*/
+.contenedorInicio {
+  width: 100%;
+  padding-bottom: 60px;
+  margin-top: 100px;
+}
+.contenedorInicio h1 {
+  max-width: 400px;
+  font-size: 35px;
+  color: black;
+}
+.contenedorInicio h2 {
+  max-width: 400px;
+  font-size: 25px;
+  font-style: italic;
+  color: black;
+  margin-top: 0px;
+}
+p {
+  color: black;
+  margin-top: 20px;
+  text-align: justify;
+  max-width: 400px;
+}
+
+
+.contenedorEstilo {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.bienvenida .contenedorInicio {
+  max-width: 400px;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+.imagenPrincipal{
+  position: relative;
+}
+
+.imagenPrincipal img {
+  position: absolute;
+  padding-bottom: 60px;
+  margin-top: 0px;
+  /*bottom: -45px;*/
+  right: 0px;
+  width: 325px;
+}
+
+/*Login*/
+
+.principal_box {
+  justify-content: center;
+  align-items: center;
+}
+
+.second_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+  margin-top: 20%;
+}
+
+.user, .clave {
+  width: 90%;
+}
+
+.alternativasIngreso {
+  margin-left: 13%;
+  margin-top: 5%;
+}
+
+.opcionesRegistroContraseña {
+  /*margin-left: 2%;*/
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+.ingreso1, .ingreso2 {
+  background-color:#CECECE;
+  padding: 3%;
+  display: inline-block;
+  margin: 5px 10px;
+  width: 80%;
+}
+
+.olvidoContraseña, .registroPersona {
+  padding: 3%;
+  background-color: #CECECE;
+}
+
+#enviar {
+  width: 100px;
+  height: 70px;
+  margin-left: 30%;
+  background-color: #CECECE;
+}
+
+/*registro*/
+
+.nombreUsuario, .apellidoUsuario, .celularUsuario, .correoUsuario, .tipoDocumento, .documentoUsuario, .direccionUsuario, .barrioUsuario, .localidadUsuario, .contrasenaNueva, .confirmacionContrasenaNueva {
+  width: 90%;
+}
+
+#registrar {
+  width: 100px;
+  height: 70px;
+  margin-left: 30%;
+  background-color: #CECECE;
+}
+
+.deseas_realizar_pedido {
+  width: 180px;
+  height: 80px;
+}
+
+.anuncia_tu_restaurante {
+  width: 160px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.explora_gusto {
+  width: 300px;
+  height: 200px;
+  margin-left: 8%;
+}
+
+.irAlInicio {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  background-color: green;
+  padding: 2%;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.irInicio {
+  margin-left: 32%;
+}
+
+.cajaFooter {
+  border: 2px solid black;
+}
+
+.opcionFooter2 {
+  position: absolute;
+  top: 1%;
+}
+
+footer {
+  text-align: center;
+  background-color: #96FF7C;
+}
+
+.bodyLogin, .bodyRegistro {
+  background-image: url('../img/fondoIngreso.jpg');
+  background-size: cover;
+}
+
+#registro {
+  background-color: white;
+  padding: 30px;
+}
+
+.ingresoUsuarios {
+  background-color: white;
+  padding: 30px;
+  border: 3px solid black;
+}
+
+@media(min-width: 768px) {
+  .nombreUsuario, .apellidoUsuario, .celularUsuario, .correoUsuario, .tipoDocumento, .documentoUsuario, .direccionUsuario, .barrioUsuario, .localidadUsuario, .contrasenaNueva, .confirmacionContrasenaNueva {
+    width: 130%;
+  }
+  .second_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja {
+    justify-content: center;
+  }
+
+  .opciones2parte {
+    position: absolute;
+    left: 58%;
+    bottom: 4%;
+    justify-content:center;
+    align-items: center;
+  }
+
+  #registrar {
+    margin-left: 130%;
+  }
+
+  .deseas_realizar_pedido {
+    width: 400px;
+    height: 200px;
+  }
+
+  .anuncia_tu_restaurante {
+    width: 350px;
+    height: 180px;
+    margin-bottom: 10px;
+  }
+
+  .explora_gusto {
+    width: 500px;
+    height: 300px;
+    margin-left: 17%;
+  }
+
+  .irAlInicio {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: green;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .irInicio {
+    margin-left: 40%;
+  }
+
+  .cajaFooter {
+    border: 2px solid black;
+  }
+
+  .opcionFooter2 {
+    position: absolute;
+    top: 1%;
+  }
+  footer {
+    text-align: center;
+    background-color: #96FF7C;
+  }
+}
+
+.datosFinales {
+  padding: 20px;
+  background-color: #5DFA36;
+}
+
+@media(min-width: 1200px) {
+  .nombreUsuario, .apellidoUsuario, .celularUsuario, .correoUsuario, .tipoDocumento, .documentoUsuario, .direccionUsuario, .barrioUsuario, .localidadUsuario, .contrasenaNueva, .confirmacionContrasenaNueva {
+    width: 190%;
+  }
+
+  .opciones2parte {
+    position: absolute;
+    left: 62%;
+    bottom: 4%;
+    top: 50%;
+  }
+
+  #registrar {
+    margin-left: 220%;
+  }
+
+  .deseas_realizar_pedido {
+    width: 700px;
+    height: 400px;
+  }
+
+  .anuncia_tu_restaurante {
+    width: 500px;
+    height: 380px;
+    margin-bottom: 10px;
+  }
+
+  .explora_gusto {
+    width: 700px;
+    height: 400px;
+    margin-left: 23%;
+  }
+
+  .irAlInicio {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: green;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .irInicio {
+    margin-left: 43%;
+  }
+
+  .cajaFooter {
+    border: 2px solid black;
+  }
+
+  .opcionFooter2 {
+    position: absolute;
+    top: 1%;
+  }
+  footer {
+    text-align: center;
+    background-color: #96FF7C;
+  }
+}
+
